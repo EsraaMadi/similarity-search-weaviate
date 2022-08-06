@@ -18,6 +18,7 @@ else:
 
     # create instance from weaviate client
     # should change host to local host
+#     client = weaviate.Client("http://localhost:8080")
     client = weaviate.Client("http://172.20.121.78:8080")
     print(client.is_ready())
 
