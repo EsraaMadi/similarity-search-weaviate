@@ -1,7 +1,7 @@
 # Search for similar products
 #### Text/Image search for similar products using Weaviate
 
-![Weaviate Search]('data/repo pics/Animation3.gif')
+![Weaviate Search](data/repo pics/Animation3.gif)
 
 This is an application spins up a [Weaviate](https://weaviate.io/) instance to search for similar products across the market. This could help stores to know if their products was also in their competitor’s offering. The app use [62k images of products](https://www.kaggle.com/datasets/kuchhbhi/stylish-product-image-dataset) combined with their text description to build vectors for the data we intend to search.
 
