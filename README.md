@@ -15,7 +15,7 @@ This is an application spins up a [Weaviate](https://weaviate.io/) instance to s
 *Then follow steps below:*
 1. Clone the repository in your local machine
 
->![](data/repo%20pics/step1.gif)
+![](data/repo%20pics/step1.gif)
 
 2. Add your images to the `data/images` folder with any format (png, jpg, jpeg )
 
@@ -32,4 +32,9 @@ This is an application spins up a [Weaviate](https://weaviate.io/) instance to s
 ``` console
 make setup
 ```
+
+![](data/repo%20pics/step4.gif)
+
 5. To run the streamlit app, open for your browser at `http://localhost:8084`
+
+![](data/repo%20pics/step5.gif)
