@@ -14,14 +14,20 @@ This is an application spins up a [Weaviate](https://weaviate.io/) instance to s
 
 *Then follow steps below:*
 1. Clone the repository in your local machine
-![](data/repo%20pics/step1.gif)
+
+>![](data/repo%20pics/step1.gif)
+
 2. Add your images to the `data/images` folder with any format (png, jpg, jpeg )
+
 ![](data/repo%20pics/step2.gif)
+
 3. Add your text that descripe each image to the `data/text` folder
     - Hint:
         - The current script accept csv file.
         - The csv file should has 2 columns (`id`: image name, `title`: text description for image)
+
 ![](data/repo%20pics/step3.gif)
+
 4. Start up Weaviate and import images in the vector database using
 ``` console
 make setup
