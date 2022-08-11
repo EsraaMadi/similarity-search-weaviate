@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img width="1000" height="700" src="data/repo%20pics/demo_long.gif">
+  <img width="800" height="700" src="data/repo%20pics/demo_long.gif">
 </p>
 
 
@@ -18,7 +18,7 @@ This is an application spins up a [Weaviate](https://weaviate.io/) instance to s
 1. Clone the repository in your local machine
 
 <p align="center">
-  <img width="1000" height="500" src="data/repo%20pics/step1.gif">
+  <img width="800" height="500" src="data/repo%20pics/step1.gif">
 </p>
 
 Your local repository would contain `data` subfolder with following structure:
@@ -69,5 +69,5 @@ make setup
 5. To run the streamlit app, open for your browser at `http://localhost:8084`
 
 <p align="center">
-  <img width="1000" height="500" src="data/repo%20pics/step5.gif">
+  <img width="800" height="500" src="data/repo%20pics/step5.gif">
 </p>
