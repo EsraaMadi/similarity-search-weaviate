@@ -1,6 +1,8 @@
 # Search for similar products
 #### Vector based image similarity search for product recommendations
 
+<br/>
+<br/>
 
 <p align="center">
   <img width="800" height="700" src="data/repo%20pics/demo_long.gif">
@@ -79,7 +81,7 @@ data/
   ``` console
   make download
   ```
-  this command will download around 62k images (~10 GB) as zip file, unzip the downloaded file and paste images as we did in step 3 & 4
+  This command will download around 62k images (~10 GB) as zip file, unzip the downloaded file and paste images as we did in **step 3 & 4**
 
   <br/>
   <br/>
