@@ -10,8 +10,7 @@ pd.set_option('display.max_colwidth', None)
 
 
 
-# client = weaviate.Client("http://localhost:8080")
-client = weaviate.Client("http://172.20.121.78:8080")
+client = weaviate.Client("http://localhost:8080")
 # st.write(client.is_ready())
 
 
@@ -45,13 +44,9 @@ if image_file is not None:
     images = [weaviate.util.image_decoder_b64(match_lst[i]['image']
                                              ) for i in range(5) ]
     st.success('Most similar product images in other stores')
-#     st.image(images, width=200)
     
     #parse text
     txt_lst = [match_lst[i]['text'] for i in range(5)]
-#     txt_df = pd.DataFrame (txt_lst,
-#                            columns = ['Description'])
-#     st.dataframe(txt_df, 1000)
 
     st.image(images[0], width=200, caption=txt_lst[0])
     st.markdown("""---""")
