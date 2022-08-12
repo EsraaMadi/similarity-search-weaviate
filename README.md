@@ -6,6 +6,8 @@
   <img width="800" height="700" src="data/repo%20pics/demo_long.gif">
 </p>
 
+<br/>
+<br/>
 
 This is an application spins up a [Weaviate](https://weaviate.io/)  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Weaviate_logo_%28no_text%29.svg/1280px-Weaviate_logo_%28no_text%29.svg.png" width="30" height="25" /> instance to search for similar products across the market. This could help stores to know if their products was also in their competitor’s offering. The app use [62k images of products](https://www.kaggle.com/datasets/kuchhbhi/stylish-product-image-dataset) combined with their text description to build vectors for the data we intend to search.
 
@@ -77,6 +79,8 @@ data/
   ``` console
   make download
   ```
+  this command will download around 62k images (~10 GB) as zip file, unzip the downloaded file and paste images as we did in step 3 & 4
+
   <br/>
   <br/>
 
