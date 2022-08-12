@@ -9,12 +9,24 @@
 
 This is an application spins up a [Weaviate](https://weaviate.io/)  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Weaviate_logo_%28no_text%29.svg/1280px-Weaviate_logo_%28no_text%29.svg.png" width="30" height="25" /> instance to search for similar products across the market. This could help stores to know if their products was also in their competitor’s offering. The app use [62k images of products](https://www.kaggle.com/datasets/kuchhbhi/stylish-product-image-dataset) combined with their text description to build vectors for the data we intend to search.
 
+<br/>
+<br/>
+<br/>
+
 ## How to run with your own custom images
+
+<br/>
 
 > Prerequisites to run it yourself
 - [Docker & Docker-Compose](https://docs.docker.com/compose/install/compose-desktop/)
 
+<br/>
+<br/>
+
 *Then follow steps below:*
+
+<br/>
+
 1. Clone the repository in your local machine
 
 <p align="center">
@@ -34,7 +46,7 @@ data/
 |__repo pics/
 |    | (ignore this folder)
 ```
-- Hint: create `data/images`, `data/text` if they are not exist (git repository does not keep empty folders)
+- Hint: create `data/images`, `data/text` folders if they are not exist (git repository does not keep empty folders)
 
 <br/>
 <br/>

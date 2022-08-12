@@ -3,8 +3,7 @@ setup:
 	docker-compose up
 	python src/import-data.py
 download:
-	cd data
-    cd images
+	cd data/images
+	pip install kaggle
 	kaggle datasets download -d kuchhbhi/stylish-product-image-dataset
-    unzip stylish-product-image-dataset.zip
     

@@ -11,6 +11,7 @@ pd.set_option('display.max_colwidth', None)
 
 
 client = weaviate.Client("http://localhost:8080")
+
 # st.write(client.is_ready())
 
 
